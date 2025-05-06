@@ -1,0 +1,26 @@
+.hero-container{
+    margin-top: 150px;
+}
+
+.hero-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    &:hover{
+        transform: scale(1.05);
+        transition: all 0.1s ease-in-out;
+    }
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+}

@@ -5,7 +5,7 @@ import Tabs from './Components/Tabs/Tabs';
 import './App.css';
 
 function App() {
-  // Hero komponentiga beriladigan karta ma'lumotlari
+  
   const cards = [
     {
       title: 'Rasm 1',
